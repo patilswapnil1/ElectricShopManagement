@@ -136,7 +136,7 @@ opacity:.8;
 
 <h3>Electric Shop Management</h3>
 
-<form action="LoginServlet" method="post">
+<form action="<%=request.getContextPath()%>/LoginServlet" method="post">
 
 <div class="input-group">
 <span class="input-group-text">
